@@ -10,7 +10,11 @@ namespace Intro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome dear students");
+            Console.WriteLine("Insert your text");
+            string input = Console.ReadLine();
+
+
+            Console.WriteLine($"lower: {input.ToLower()}, upper {input.ToUpper()}, {input}");
 
             Console.ReadLine();
         }
