@@ -121,23 +121,40 @@ namespace Conditional
             //        break;
             //}
 
-            var myCar = Cars.Mercedes;
+            //var myCar = Cars.Mercedes;
 
-            switch (myCar)
+            //switch (myCar)
+            //{
+            //    case Cars.Bmw:
+            //        break;
+            //    case Cars.Mercedes:
+            //        break;
+            //    case Cars.Bentley:
+            //        break;
+            //    case Cars.Zap:
+            //        break;
+            //    default:
+            //        break;
+            //}
+
+            //Console.WriteLine((int)myCar);
+
+
+            // progressia
+
+            double a2 = double.Parse(Console.ReadLine());
+            double a1 = double.Parse(Console.ReadLine());
+            double a3 = double.Parse(Console.ReadLine());
+
+            if (((a1 + a3) / 2) == a2)
             {
-                case Cars.Bmw:
-                    break;
-                case Cars.Mercedes:
-                    break;
-                case Cars.Bentley:
-                    break;
-                case Cars.Zap:
-                    break;
-                default:
-                    break;
+                Console.WriteLine("Tvabanakan");
+            }
+            else
+            {
+                Console.WriteLine("sxal");
             }
 
-            Console.WriteLine((int)myCar);
 
 
             Console.ReadLine();
