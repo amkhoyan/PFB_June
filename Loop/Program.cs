@@ -117,7 +117,6 @@ namespace Loop
             {
                 //sum = sum + i;
                 sum += i;
-
             }
        
             Console.WriteLine($"Summa = {sum}");
