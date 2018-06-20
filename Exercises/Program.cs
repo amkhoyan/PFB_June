@@ -78,7 +78,7 @@ namespace Exercises
             
             for (int j = 0; j < 6; j++)
             {
-                for (int k = 0; k < j; k++)
+                for (int k = 0; k <= j; k++)
                 {
                     Console.Write("*");
                 }
