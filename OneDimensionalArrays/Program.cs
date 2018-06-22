@@ -34,14 +34,12 @@ namespace OneDimensionalArrays
             }
 
             Console.WriteLine(myStr2);
-
-
+            
             int myInt = intArr[5];
             intArr[9] = 15;
 
             Console.ReadLine();
-
-
+            
 
             ///////////// solution
             Console.WriteLine("Type dimension of an Array:");
@@ -50,7 +48,7 @@ namespace OneDimensionalArrays
 
             for (int i = 0; i < nums.Length; i++)
             {
-                Console.WriteLine("Type Elements:");
+                //Console.WriteLine("Type Elements:");
                 nums[i] = int.Parse(Console.ReadLine());
             }
 
@@ -61,7 +59,7 @@ namespace OneDimensionalArrays
             }
 
 
-
+            ///////////////////////////
 
 
 
